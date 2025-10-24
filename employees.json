@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "role": "Software Engineer",
+    "department": "Engineering",
+    "email": "alice.johnson@example.com",
+    "phone": "555-1234",
+    "image": "src/assets/emp1.jfif"
+  },
+  {
+    "id": 2,
+    "name": "Bob Smith",
+    "role": "Product Manager",
+    "department": "Product",
+    "email": "bob.smith@example.com",
+    "phone": "555-5678",
+    "image": "src/assets/emp2.jfif"
+  },
+  {
+    "id": 3,
+    "name": "Carol Lee",
+    "role": "UX Designer",
+    "department": "Design",
+    "email": "carol.lee@example.com",
+    "phone": "555-8765",
+    "image": "src/assets/emp3.jfif"
+  },
+  {
+    "id": 4,
+    "name": "David Brown",
+    "role": "QA Engineer",
+    "department": "Engineering",
+    "email": "david.brown@example.com",
+    "phone": "555-4321",
+    "image": "src/assets/emp4.jfif"
+  },
+  {
+    "id": 5,
+    "name": "Eva Green",
+    "role": "HR Manager",
+    "department": "Human Resources",
+    "email": "eva.green@example.com",
+    "phone": "555-6789",
+    "image": "src/assets/emp5.jfif"
+  }
+]

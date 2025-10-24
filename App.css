@@ -1,0 +1,83 @@
+/* src/App.css */
+.app-wrapper{
+  display:flex;
+  min-height:calc(100vh - 48px);
+  gap:16px;
+}
+
+/* Navbar (top-left links in your screenshot) */
+.navbar{
+  width:100%;
+  margin-bottom:12px;
+  display:flex;
+  gap:12px;
+  align-items:center;
+}
+.navbar .brand{
+  font-weight:700;
+  font-size:20px;
+  color:var(--text);
+  margin-right:auto;
+}
+.navbar a{
+  padding:6px 10px;
+  border-radius:6px;
+  text-decoration:none;
+  color:var(--accent);
+}
+
+/* Sidebar (if you have one) */
+.sidebar{
+  width:220px;
+  background:var(--card);
+  border-radius:12px;
+  padding:16px;
+  box-shadow:0 6px 18px rgba(15,23,42,0.06);
+}
+.sidebar ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:8px}
+.sidebar a{color:var(--muted);text-decoration:none;padding:8px;border-radius:8px;display:block}
+.sidebar a.active{background:#eef6ff;color:var(--accent)}
+
+/* Main content */
+.main{
+  flex:1;
+  display:block;
+}
+
+/* Dashboard cards */
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:16px;
+  margin-top:12px;
+}
+.card{
+  background:var(--card);
+  padding:20px;
+  border-radius:12px;
+  box-shadow:0 6px 18px rgba(15,23,42,0.04);
+}
+.card .label{font-size:13px;color:var(--muted);margin-bottom:8px}
+.card .value{font-size:28px;font-weight:700}
+
+/* Employee list */
+.employee-list{margin-top:20px;display:grid;gap:12px}
+.employee-card{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  padding:12px;
+  border-radius:10px;
+  background:linear-gradient(180deg, rgba(255,255,255,1), rgba(249,250,252,1));
+  border:1px solid rgba(15,23,42,0.03);
+}
+.employee-card img{
+  width:56px;height:56px;border-radius:8px;object-fit:cover;
+  border:1px solid rgba(0,0,0,0.06);
+}
+.employee-card .meta{flex:1}
+.employee-card .meta .name{font-weight:600}
+.employee-card .meta .role{color:var(--muted);font-size:13px}
+.employee-card button{
+  background:transparent;border:1px solid rgba(15,23,42,0.06);padding:6px 10px;border-radius:8px;cursor:pointer;
+}
